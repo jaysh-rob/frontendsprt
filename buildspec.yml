@@ -6,6 +6,7 @@ phases:
       nodejs: 18
   pre_build:
     commands:
+      - npm install --save react-bootstrap bootstrap
       - npm install
   build:
     commands:
