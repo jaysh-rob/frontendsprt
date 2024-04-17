@@ -9,6 +9,8 @@ import CustomNavbar from "./components/CustomNavbar"; // Import Footer component
 import Dietapi from "./pages/Dietapi";
 import Country from "./pages/Country";
 import Cricket from "./pages/Cricket";
+import HistBettingOdds from "./pages/HistBettingOdds";
+
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/dietapi" element={<Dietapi />} />
         <Route path="/country" element={<Country />} />
         <Route path="/cricket" element={<Cricket />} />
+        <Route path="/betting" element={<HistBettingOdds />} />
+        
       </Routes>
     </Router>
   );
