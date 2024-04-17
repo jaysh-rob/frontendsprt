@@ -53,6 +53,10 @@ function CustomNavbar() {
               Cricket Scores
             </Nav.Link>
 
+            <Nav.Link  href={"/betting"} className="text-white">
+              Betting Odds
+            </Nav.Link>
+
           </Nav>
           {
             !(logintkn?.token) &&
